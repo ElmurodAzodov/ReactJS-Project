@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+}
+nav a {
+  text-decoration: none;
+  color: snow;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: all 0.3s ease-in-out;
+  padding: 10px 20px;
+  display: inline-block;
+}
+nav a:hover:not(.active) {
+  background-color: #33ff55;
+  color: snow;
+}
+nav a:active:not(.active) {
+  background-color: #11ff99;
+  color: snow;
+}
+nav .active {
+  background-color: green;
+}
+nav .active:hover {
+  color: snow;
+  cursor: default;
+}/*# sourceMappingURL=style.css.map */
